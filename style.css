@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url("/");
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px #282828;
+}
+
+.botones{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.logo{
+    display: flex;
+    ;
+}
