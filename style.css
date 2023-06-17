@@ -1,14 +1,16 @@
 *{
     margin: 0;
-    padding: 0;    
-    /* background-color:; */
+    padding: 0;  
+
 }
 
 .navbar{
     display: flex;
-    justify-content: space-between;
-    border: solid 2px black;
-    background-color: brown;
+    justify-content: space-around;
+    border: solid 1px silver;
+    /* background-color: #8BC34A; */
+    background-color: #0097A7;
+    box-shadow: -3px 2px 8px;
 }
 
 .lista{
@@ -16,17 +18,27 @@
     align-items: center;
     gap: 10px;
     list-style: none;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .logo{
     display: flex;
     flex-wrap: wrap;
-    max-width: 30px;
-    background-color: crimson;
+    max-width: 50px;
+    /* background-color: crimson; */
 }
 
 .botones {
     display: flex;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    text-decoration: none;
+    box-shadow: -2px 1px 6px;
+    color: #282828;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
 }
